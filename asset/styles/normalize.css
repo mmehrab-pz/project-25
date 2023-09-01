@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../font/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../font/Montserrat-Bold.ttf);
+}
+/* ----------------------------------------------------------------- */
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
